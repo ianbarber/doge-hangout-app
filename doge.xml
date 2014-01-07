@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Doge">
+    <Require feature="rpc"/>
+  </ModulePrefs>
+  <Content type="html"><![CDATA[
+<!DOCTYPE html>
+<style type="text/css">
+  .button {
+    border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd)); 
+    background: -moz-linear-gradient(top, #fff, #ddd); 
+    border: 1px solid #bbb; 
+  }
+</style>
+<!-- The hangout API JavaScript. Always include this first -->
+<script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+<script src="https://diesel-talon-426.appspot.com/static/apps/doge.js"></script>
+<div style="text-align: center;">
+  <h3 style="color: black; font-family: Verdana;">So Doge</h3>
+
+  <p>
+  <input class="button" type="button" value="Doge" id="enable" 
+      onClick="toggle()"/>
+  </p>
+</div>
+<div style="clear: both;"></div>
+
+]]></Content>
+</Module>
